@@ -1,4 +1,4 @@
-let porta = false;
+/*let porta = false;
 
 if (porta){
     console.log("sair");
@@ -121,3 +121,26 @@ if(dia == 1){
 } else{
     nomedeForrozeiro += " do Vinho Quente"
 }
+console.log(nomedeForrozeiro);*/
+
+
+let semaforo = "verde";
+
+switch(semaforo){
+    case "verde" :
+        console.log("siga em frente");
+    break;
+
+    case "amarelo" :
+        console.log("acelere");
+    break;
+
+    case "vermelho" :
+        console.log("pare");
+    break;
+    default:
+        console.log("semaforo com defeito");
+}
+
+
+
